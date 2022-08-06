@@ -37,3 +37,4 @@ C:\Users\Turkmen\source\repos\gebzedemo\gebzedemo\obj\Debug\net5.0\gebzedemo.pdb
 C:\Users\Turkmen\source\repos\gebzedemo\gebzedemo\obj\Debug\net5.0\gebzedemo.genruntimeconfig.cache
 C:\Users\Turkmen\source\repos\gebzedemo\gebzedemo\obj\Debug\net5.0\ref\gebzedemo.dll
 C:\Users\Turkmen\source\repos\gebzedemo\gebzedemo\obj\Debug\net5.0\gebzedemo.csproj.CopyComplete
+C:\Users\Turkmen\source\repos\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\camiiler.cshtml.g.cs
