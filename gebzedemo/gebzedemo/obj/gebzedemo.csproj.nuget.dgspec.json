@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turkmen\\Source\\Repos\\Turkmen48\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj": {}
+    "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turkmen\\Source\\Repos\\Turkmen48\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj": {
+    "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turkmen\\Source\\Repos\\Turkmen48\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
+        "projectUniqueName": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
         "projectName": "gebzedemo",
-        "projectPath": "C:\\Users\\Turkmen\\Source\\Repos\\Turkmen48\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
+        "projectPath": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
         "packagesPath": "C:\\Users\\Turkmen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turkmen\\Source\\Repos\\Turkmen48\\gebzedemo\\gebzedemo\\gebzedemo\\obj\\",
+        "outputPath": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

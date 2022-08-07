@@ -28,8 +28,22 @@ namespace gebzedemo.Controllers
         {
             return View();
         }
-
-
+        public IActionResult Kalevekuleler()
+        {
+            return View();
+        }
+        public IActionResult Hamamlar()
+        {
+            return View();
+        }
+        public IActionResult Dogaturizmi()
+        {
+            return View();
+        }
+        public IActionResult Sehitlik()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
