@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-
 namespace gebzedemo.Controllers
 {
     public class HomeController : Controller
@@ -15,8 +14,10 @@ namespace gebzedemo.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
+
             return View();
         }
 
