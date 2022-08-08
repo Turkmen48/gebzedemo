@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLoginLayout";
+    ViewData["Title"] = "Admin Panel";
+}
+ 
+
+    <form class="form-signin">
+      <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Admin Girişi</h1>
+      <label for="username" class="sr-only">Kullanıcı Adı</label>
+      <input type="username" id="username" class="form-control" placeholder="Kullanıcı Adı" required autofocus>
+      <label for="inputPassword" class="sr-only">Şifre</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Şifre" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Giriş Yap</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+      </form>

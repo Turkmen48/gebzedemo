@@ -128,7 +128,6 @@ C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\Iletisim.cshtml.g.cs
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Iletisim\index.cshtml.g.cs
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0\WebMatrix.Data.dll
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\bin\Debug\net5.0\WebMatrix.WebData.dll
@@ -189,3 +188,5 @@ C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\
 C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\ref\gebzedemo.dll
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\Cesmeler.cshtml.g.cs
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\Yemekler.cshtml.g.cs
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Admin\Login.cshtml.g.cs
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Shared\_AdminLoginLayout.cshtml.g.cs
