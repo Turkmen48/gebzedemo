@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xHPeQuhxATVjZhoZVJ4CD73VA1tyua7HHujwVvu2l6Ue96aSO5URGqufOGaqODoisABGhIkuJgOMQ+MO9Il0Q==",
+  "dgSpecHash": "98GJBIPUnAktpQNGmJ2ChkApzQdZPpz2aE4i12QykWtQ/2t4wpXnefTuY+gZ41yArvzoAXaJrm1ZHY0R+wbjRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FATİH\\Documents\\GitHub\\gebzedemo\\fatih\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
+  "projectFilePath": "C:\\Users\\FATİH\\Desktop\\gebzedemo-main\\gebzedemo\\gebzedemo\\gebzedemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FATİH\\.nuget\\packages\\microsoft.aspnet.webpages.data\\3.2.9\\microsoft.aspnet.webpages.data.3.2.9.nupkg.sha512",
     "C:\\Users\\FATİH\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\3.2.9\\microsoft.aspnet.webpages.webdata.3.2.9.nupkg.sha512",
