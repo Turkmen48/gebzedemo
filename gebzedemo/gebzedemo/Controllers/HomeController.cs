@@ -21,6 +21,8 @@ namespace gebzedemo.Controllers
             return View();
         }
 
+        public IActionResult cesmeler() { return View(); }  
+
         public IActionResult Privacy()
         {
             return View();

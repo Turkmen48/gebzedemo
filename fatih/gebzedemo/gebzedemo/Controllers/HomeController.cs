@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-
 namespace gebzedemo.Controllers
 {
     public class HomeController : Controller
@@ -15,10 +14,14 @@ namespace gebzedemo.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
+
             return View();
         }
+
+        public IActionResult cesmeler() { return View(); }  
 
         public IActionResult Privacy()
         {
@@ -28,12 +31,22 @@ namespace gebzedemo.Controllers
         {
             return View();
         }
-        public IActionResult Cesmeler()
+        public IActionResult Kalevekuleler()
         {
             return View();
         }
-
-
+        public IActionResult Hamamlar()
+        {
+            return View();
+        }
+        public IActionResult Dogaturizmi()
+        {
+            return View();
+        }
+        public IActionResult Sehitlik()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
