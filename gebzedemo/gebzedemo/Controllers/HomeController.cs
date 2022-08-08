@@ -21,7 +21,7 @@ namespace gebzedemo.Controllers
             return View();
         }
 
-        public IActionResult cesmeler() { return View(); }  
+        public IActionResult cesmeler() { return View(); }
 
         public IActionResult Privacy()
         {
@@ -40,6 +40,10 @@ namespace gebzedemo.Controllers
             return View();
         }
         public IActionResult Dogaturizmi()
+        {
+            return View();
+        }
+        public IActionResult Yemekler()
         {
             return View();
         }
