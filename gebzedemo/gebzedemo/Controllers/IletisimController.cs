@@ -1,37 +1,42 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using System.Collections;
-using System.Data.SqlClient;
+﻿using gebzedemo.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace gebzedemo.Controllers
 {
     public class IletisimController : Controller
     {
-        private readonly IConfiguration configuration;
+        IletisimDb dbop = new IletisimDb();
 
-        public IletisimController(IConfiguration configuration)
-        {
-            this.configuration = configuration;
-        }
 
         public IActionResult Index()
         {
-            string connectionString = configuration.GetConnectionString("DefaultConnectionString");
-
-            SqlConnection connection = new SqlConnection(connectionString);
-            ArrayList valuesList = new ArrayList();
-            connection.Open();
-            SqlCommand com = new SqlCommand("Select isim from iletisim", connection);
 
 
-            SqlDataReader dataReader = com.ExecuteReader();
 
-            while (dataReader.Read())
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Index([Bind] IletisimSend iletisimSend)
+        {
+            try
             {
-                valuesList.Add(dataReader[0].ToString());
+                if (ModelState.IsValid)
+                {
+                    ///iletisimSend.Name = "anan";
+                    ///iletisimSend.Surname = "anan";
+                    ///iletisimSend.Phone = 655555;
+                    /// iletisimSend.Message = "anan";
+                    ///iletisimSend.Email = "";
+                    string res = dbop.SaveRecord(iletisimSend);
+                    TempData["msg"] = res;
+                }
             }
-            ViewBag.valuesList = valuesList;
-            connection.Close();
+            catch (Exception ex)
+            {
+                TempData["msg"] = ex.Message.ToString();
+            }
+
             return View();
         }
     }
