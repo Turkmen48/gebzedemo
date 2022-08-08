@@ -187,3 +187,4 @@ C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\
 C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\gebzedemo.pdb
 C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\gebzedemo.genruntimeconfig.cache
 C:\Users\FATİH\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\ref\gebzedemo.dll
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\Cesmeler.cshtml.g.cs
