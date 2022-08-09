@@ -190,3 +190,4 @@ C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Home\Yemekler.cshtml.g.cs
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Admin\Login.cshtml.g.cs
 C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Shared\_AdminLoginLayout.cshtml.g.cs
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
