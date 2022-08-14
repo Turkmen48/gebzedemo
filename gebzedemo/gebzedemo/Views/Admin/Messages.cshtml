@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminIndexLayout";
+    ViewData["Title"] = "Mesajlar";
+    ViewData["Active"] = "deactive";
+	ViewData["Deactive"] = "active";
+}
+
+@model gebzedemo.Models.AdminGetData
+
+@foreach(var item in Model.Email){
+	<h1>@item</h1>
+}

@@ -1,8 +1,12 @@
 ﻿using gebzedemo.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -12,6 +16,11 @@ namespace gebzedemo.Controllers
     public class AdminController : Controller
     {
         ///authentication
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-4JD2R8F\\TEW_SQLEXPRESS;Database=gezgebze; User ID=sa;Password=enesusta; Integrated Security=True");
+        DataSet ds = new DataSet();
+        private List<Models.AdminGetData> messages = new List<Models.AdminGetData>();
+
+
 
 
 
@@ -49,14 +58,65 @@ namespace gebzedemo.Controllers
 
 
         }
+        [HttpGet]
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Admin");
+        }
 
         [Authorize]
         public IActionResult Index()
         {
+            try
+            { /// sql bağlan veri çek
 
+                SqlCommand com = new SqlCommand("SELECT COUNT(*) FROM iletisim", con);
+                con.Open();
+                TempData["MesajSayisi"] = com.ExecuteScalar();
+
+
+                con.Close();
+
+            }
+            catch (Exception ex)
+            {
+                TempData["msg"] = "Bir hata oluştu hata kodu:" + ex.Message;
+
+
+            }
 
 
             return View();
+
+        }
+
+
+
+        [Authorize]
+        public ActionResult Messages()
+        {
+            SqlCommand com = new SqlCommand("SELECT COUNT(*) FROM iletisim", con);
+
+
+
+            con.Open();
+            int count = (int)com.ExecuteScalar();
+            SqlDataAdapter da = new SqlDataAdapter("select * from iletisim", con);
+            da.Fill(ds);
+
+
+            foreach (DataRow dr in ds.Tables[0].Rows)
+
+            {
+
+                messages.Add(new Models.AdminGetData() { Id = int.Parse(dr[0].ToString()), Name = dr[1].ToString(), Surname = dr[2].ToString(), Phone = dr[3].ToString(), Message = dr[4].ToString(), Email = dr[5].ToString() });
+
+            }
+
+
+
+            return View(messages);
         }
 
 
