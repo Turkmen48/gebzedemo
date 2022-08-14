@@ -119,8 +119,47 @@ namespace gebzedemo.Controllers
             return View(messages);
         }
 
+        public List<Models.AdminGetData> GetData()
+        {
+            List<Models.AdminGetData> adminGetDatas = new List<Models.AdminGetData>();
+            for (int i = 0; i <= 20; i++)
+            {
+                Models.AdminGetData adminGetData = new Models.AdminGetData();
+                adminGetData.Email = "Email" + i;
+                adminGetData.Id = i;
+                adminGetData.Message = "Message" + i;
+                adminGetData.Name = "Name" + i;
+                adminGetData.Phone = "Phone" + i;
+                adminGetData.Surname = "Surname" + i;
+                adminGetDatas.Add(adminGetData);
 
 
+            }
+            return adminGetDatas;
+        }
+        public void DeleteEmployee(int id)
+        {
+
+
+            using (SqlConnection con = new SqlConnection("Data Source=DESKTOP-4JD2R8F\\TEW_SQLEXPRESS;Database=gezgebze; User ID=sa;Password=enesusta; Integrated Security=True"))
+            {
+                SqlCommand cmd = new SqlCommand("spDeleteMessage", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter paramId = new SqlParameter();
+                paramId.ParameterName = "@id";
+                paramId.Value = id;
+                cmd.Parameters.Add(paramId);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            DeleteEmployee(id);
+            return RedirectToAction("Messages", "Admin");
+        }
 
 
 
