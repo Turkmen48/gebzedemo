@@ -1,0 +1,8 @@
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.csproj.AssemblyReference.cache
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.AssemblyInfoInputs.cache
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.AssemblyInfo.cs
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.csproj.CoreCompileInputs.cache
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.RazorAssemblyInfo.cache
+C:\Users\Turkmen\Documents\GitHub\gebzedemo\gebzedemo\gebzedemo\obj\Debug\netcoreapp3.1\gebzedemo.RazorAssemblyInfo.cs
