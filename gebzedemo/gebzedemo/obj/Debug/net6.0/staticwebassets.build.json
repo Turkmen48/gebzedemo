@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Io0OaL7ccIKOVbXC4s6WkpIALIzHZLjGOh+cHnz9TDw=",
+  "Hash": "4mXXZU7XjnjG5Z8kiJsbErCYCd0HgHlKUcyKauaKE3c=",
   "Source": "gebzedemo",
   "BasePath": "_content/gebzedemo",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\assets\\images\\4848.png",
+      "SourceId": "gebzedemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\",
+      "BasePath": "_content/gebzedemo",
+      "RelativePath": "assets/images/4848.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4848.png"
     },
     {
       "Identity": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\assets\\images\\5.jpg",
@@ -457,6 +474,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\kbc.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\assets\\images\\logo.png",
+      "SourceId": "gebzedemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\",
+      "BasePath": "_content/gebzedemo",
+      "RelativePath": "assets/images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Turkmen\\Documents\\GitHub\\gebzedemo\\gebzedemo\\gebzedemo\\wwwroot\\assets\\images\\mancar-yemegi.jpg",
