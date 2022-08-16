@@ -1,12 +1,24 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - GezGebze</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-   
+	   <link rel="stylesheet" href="~/css/homeindexcss/owl.carousel.min.css">
+<link rel="stylesheet" href="~/css/homeindexcss/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800%7CBaloo">
+	    <link rel="stylesheet" href="~/css/homeindexcss/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/homeindexcss/fonts.css">
+    <link rel="stylesheet" href="~/css/homeindexcss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -49,11 +61,9 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    
+       @RenderBody()
+    
 
     <footer class="border-top footer text-muted">
         <div class="container">
@@ -61,8 +71,15 @@
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	
     <script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="~/js/jsindex/core.min.js"></script>
+    <script src="~/js/jsindex/script.js"></script>	
+    <script src="~/js/jsindex/owl.carousel.min.js"></script>
+         
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
